@@ -22,6 +22,7 @@ public class AccountBean implements Serializable {
 		super();
 	}
 
+	//getters and setters
 	public int getAccountId() {
 		return accountId;
 	}
