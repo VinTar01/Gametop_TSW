@@ -18,6 +18,7 @@ public class PurchaseBean implements Serializable{
 		super();
 	}
 
+	//getters and setters
 	public int getPurchaseId() {
 		return purchaseId;
 	}

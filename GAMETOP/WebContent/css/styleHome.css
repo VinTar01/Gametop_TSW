@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+
+body {
+    background-color: #f2f2f2; /* Colore di sfondo grigio chiaro */
+    font-family: Arial, sans-serif; /* Tipo di carattere */
+}
+
+/* Stile per la sezione delle categorie */
+#categories ul li a {
+    display: block; /* Rendi il link un blocco */
+    padding: 10px; /* Padding interno */
+    text-align: center; /* Allinea il testo al centro */
+    color: #0066cc; /* Colore dei link alle categorie */
+    text-decoration: none;
+}
+
+#categories ul li a:hover {
+    text-decoration: underline; /* Sottolinea il link al passaggio del mouse */
+}
+
+/* Stile per la sezione dei prodotti */
+#products table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#products table td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Bordo grigio */
+}
+
+#products table td img {
+    max-width: 100px;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Media queries per adattare il layout delle categorie in base alla larghezza dello schermo */
+@media screen and (max-width: 768px) {
+    #categories ul li {
+        flex-basis: 50%; /* Occupa il 50% della larghezza */
+        max-width: calc(50% - 20px); /* Larghezza massima */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #categories ul li {
+        flex-basis: 100%; /* Occupa il 100% della larghezza */
+        max-width: calc(100% - 20px); /* Larghezza massima */
+    }
+}
+
+/* Media query per adattare la tabella dei prodotti su schermi di dimensioni più piccole */
+@media screen and (max-width: 768px) {
+    #products table {
+        display: block; /* Visualizza la tabella come blocco */
+        width: auto; /* Imposta la larghezza automatica */
+    }
+
+    #products table tr {
+        display: block; /* Visualizza ogni riga come blocco */
+        margin-bottom: 20px; /* Aggiunge uno spazio tra le righe */
+        border: 1px solid #ddd; /* Aggiunge un bordo a ciascuna riga */
+    }
+
+    #products table td {
+        display: block; /* Visualizza ogni cella come blocco */
+        padding: 10px;
+        border: none; /* Rimuove il bordo delle celle */
+        border-bottom: 1px solid #ddd; /* Aggiunge un bordo inferiore a ciascuna cella */
+    }
+
+    #products table td img {
+        display: block;
+        margin: 0 auto 10px; /* Aggiunge spazio sotto l'immagine */
+    }
+}

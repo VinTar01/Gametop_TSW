@@ -13,6 +13,8 @@ public class CompanyBean implements Serializable{
 		super();
 	}
 
+	
+	//getters and setters
 	public int getCompanyId() {
 		return companyId;
 	}

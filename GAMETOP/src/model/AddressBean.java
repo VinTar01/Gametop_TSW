@@ -13,6 +13,7 @@ public class AddressBean implements Serializable{
 		super();
 	}
 
+	//getters and setters
 	public int getAddressId() {
 		return addressId;
 	}

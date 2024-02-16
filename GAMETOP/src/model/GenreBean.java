@@ -15,6 +15,7 @@ public class GenreBean implements Serializable {
 		super();
 	}
 
+	//getters and setters
 	public int getGenreId() {
 		return genreId;
 	}

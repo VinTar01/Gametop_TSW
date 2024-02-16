@@ -20,6 +20,7 @@ public class ProductBean implements Serializable {
 		super();
 	}
 
+	//getters and setters
 	public int getProductId() {
 		return productId;
 	}

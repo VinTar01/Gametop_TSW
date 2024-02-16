@@ -1,0 +1,76 @@
+@charset "ISO-8859-1";
+/* Stile generale della pagina Payment.jsp */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Colore di sfondo grigio */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto; /* Centra il form orizzontalmente */
+    background-color: #fff; /* Sfondo bianco per il form */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+}
+
+input[type="radio"] {
+    margin-bottom: 10px;
+}
+
+#paymentDiv {
+    margin-top: 20px;
+}
+
+/* Stile specifico per il metodo di pagamento PayPal */
+#paymentDiv.paypal {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Stile specifico per il metodo di pagamento Carta di Credito */
+#paymentDiv.card {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Stile per i campi di input */
+input[type="text"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+select {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Colore blu */
+    color: #fff; /* Testo bianco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Cambia il colore al passaggio del mouse */
+}
+
+/* Stile per i messaggi di errore */
+.error-message {
+    color: #ff0000; /* Rosso */
+    font-size: 14px;
+    margin-top: 5px;
+}

@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+/* Impostazioni di base per il body */
+body {
+    margin: 0; /* Rimuove il margine predefinito */
+    padding: 0; /* Rimuove il padding predefinito */
+    display: flex; /* Utilizza il layout flessibile */
+    justify-content: center; /* Allinea gli elementi al centro sull'asse principale (orizzontale) */
+    align-items: center; /* Allinea gli elementi al centro sull'asse trasversale (verticale) */
+    flex-direction: column; /* Organizza gli elementi in colonna */
+    height: 100vh; /* Imposta l'altezza del body al 100% dell'altezza della viewport */
+}
+
+/* Stile della tabella */
+table {
+    border-collapse: collapse; /* Unisce i bordi delle celle */
+    width: 80%; /* Imposta la larghezza della tabella al 80% del suo contenitore */
+    margin-top: 20px; /* Margine superiore della tabella */
+}
+
+/* Stile delle celle della tabella */
+th, td {
+    border: 1px solid #dddddd; /* Bordi delle celle */
+    text-align: left; /* Allinea il testo a sinistra all'interno delle celle */
+    padding: 8px; /* Spazio interno delle celle */
+}
+
+/* Stile delle intestazioni della tabella */
+th {
+    background-color: #f2f2f2; /* Colore di sfondo delle intestazioni */
+}
+
+/* Stile delle righe pari della tabella */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Colore di sfondo delle righe pari */
+}
+
+/* Stile del titolo */
+h1 {
+    margin-top: 20px; /* Margine superiore del titolo */
+}
+
+
+
+
+/* Media query per schermi di larghezza massima di 768px */
+@media screen and (max-width: 768px) {
+    table {
+        width: 95%; /* Riduci la larghezza della tabella al 95% del suo contenitore */
+    }
+}

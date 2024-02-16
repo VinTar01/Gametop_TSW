@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+/* Stile generale per il form */
+form {
+    width: 80%; /* Larghezza del form */
+    margin: 0 auto; /* Margin automatico per centrare il form */
+    padding: 20px; /* Padding di 20px */
+    background-color: white; /* Colore di sfondo bianco */
+    border: 1px solid #ccc; /* Bordo grigio con spessore di 1px */
+    border-radius: 5px; /* Bordi arrotondati */
+}
+
+/* Stile per le etichette del form */
+form label {
+    font-weight: bold; /* Testo in grassetto */
+}
+
+/* Stile per gli input del form */
+form input[type="text"],
+form input[type="tel"],
+form input[type="checkbox"] {
+    width: calc(100% - 10px); /* Larghezza del 100% meno 10px */
+    margin: 5px 0; /* Margine di 5px sopra e sotto */
+    padding: 10px; /* Padding di 10px */
+    border: 1px solid #ccc; /* Bordo grigio con spessore di 1px */
+    border-radius: 5px; /* Bordi arrotondati */
+}
+
+/* Stile per i messaggi di errore */
+.error {
+    border-color: red; /* Bordo rosso per indicare l'errore */
+}
+
+/* Stile per i pulsanti del form */
+form button {
+    width: calc(100% - 10px); /* Larghezza del 100% meno 10px */
+    margin: 10px 0; /* Margine di 10px sopra e sotto */
+    padding: 10px; /* Padding di 10px */
+    background-color: #4169E1; /* Colore di sfondo blu */
+    color: white; /* Colore del testo bianco */
+    border: none; /* Nessun bordo */
+    border-radius: 5px; /* Bordi arrotondati */
+    cursor: pointer; /* Cambia il cursore al puntatore al passaggio del mouse */
+}
+
+/* Stile per i pulsanti del form al passaggio del mouse */
+form button:hover {
+    background-color: #003366; /* Colore di sfondo più scuro al passaggio del mouse */
+}

@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+/* Stili per il corpo della pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px; /* Aggiungi spazio intorno al contenuto */
+}
+
+/* Stili per l'elemento h1 */
+h1 {
+    color: #333; /* Colore del testo */
+    margin-bottom: 10px; /* Aggiungi spazio inferiore */
+}
+
+/* Stili per il contenuto della company description */
+.company-description {
+    font-size: 16px; /* Dimensione del testo */
+    color: #666; /* Colore del testo grigio */
+}

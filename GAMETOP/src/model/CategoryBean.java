@@ -13,6 +13,7 @@ public class CategoryBean implements Serializable{
 		super();
 	}
 	
+	//getters and setters
 	public int getCategoryId() {
 		return categoryId;
 	}

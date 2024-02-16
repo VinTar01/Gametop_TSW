@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+
+/* Stile per l'header */
+header {
+    background-color: #4169E1; /* Colore di sfondo blu */
+    color: black; /* Colore del testo nero */
+    padding: 20px; /* Padding di 20px */
+}
+
+/* Media queries per il layout responsivo */
+@media screen and (max-width: 768px) {
+    header {
+        display: flex; /* Utilizza il layout flessibile */
+        justify-content: space-between; /* Distribuisce gli elementi equamente */
+        align-items: center; /* Centra verticalmente gli elementi */
+    }
+}

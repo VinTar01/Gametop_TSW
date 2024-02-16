@@ -1,0 +1,123 @@
+/* Stile per la pagina del carrello */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Grigio chiaro */
+}
+
+#home {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+#home span {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+#subtotal,
+#total {
+    font-weight: bold;
+}
+
+#subtotal::before,
+#total::before {
+    content: "€";
+}
+
+#subtotal,
+#total {
+    color: #009933; /* Verde */
+}
+
+#subtotal,
+#total,
+a {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #3366cc; /* Blu */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc; /* Grigio */
+    margin-top: 20px;
+}
+
+.cart-item {
+    background-color: #fff; /* Bianco */
+    border: 1px solid #ccc; /* Grigio */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.cart-item-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.cart-item-buttons {
+    margin-top: 10px;
+}
+
+.cart-item-buttons button {
+    background-color: #3366cc; /* Blu */
+    color: #fff; /* Bianco */
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.cart-item-buttons button:disabled {
+    background-color: #ccc; /* Grigio */
+    cursor: not-allowed;
+}
+
+.cart-item-buttons button:hover:enabled {
+    background-color: #003399; /* Blu scuro */
+}
+
+
+/* Rimuove eventuali caratteri indesiderati prima di Totale e Subtotale */
+#subtotal::before,
+#total::before {
+    content: "";
+}
+
+/* Media query per schermi di larghezza massima di 768px */
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    #subtotal,
+    #total,
+    a {
+        font-size: 16px;
+    }
+
+    .cart-item {
+        padding: 8px;
+    }
+
+    .cart-item-buttons button {
+        padding: 4px 8px;
+        margin-right: 3px;
+    }
+}

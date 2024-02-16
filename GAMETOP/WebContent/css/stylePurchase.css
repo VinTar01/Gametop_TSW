@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+/* Stile generale */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.order-number {
+    font-weight: bold;
+    text-align: center;
+}
+
+.info-message {
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.order-summary {
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #333;
+}
+
+.order-summary th,
+.order-summary td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+.order-summary th {
+    background-color: #f2f2f2;
+}
+
+.order-summary td b {
+    font-weight: bold;
+}
+
+.order-summary td hr {
+    border-top: 1px solid #333;
+    margin: 10px 0;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #333;
+}

@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+/* Stile generale per il footer */
+footer {
+    background-color: #4169E1; /* Colore di sfondo blu */
+    color: black; /* Colore del testo nero */
+    padding: 20px; /* Padding di 20px */
+}
+
+/* Stile per la sezione a sinistra del footer */
+.footer-left {
+    /* Aggiungi stili specifici per il layout flessibile solo tramite media queries */
+}
+
+/* Stile per la sezione al centro del footer */
+.footer-center {
+    /* Aggiungi stili specifici per il layout flessibile solo tramite media queries */
+}
+
+/* Stile per la sezione a destra del footer */
+.footer-right {
+    /* Aggiungi stili specifici per il layout flessibile solo tramite media queries */
+}
+
+/* Stile per i link nel footer */
+.footer-right ul {
+    list-style-type: none; /* Rimuovi i punti dall'elenco */
+    padding: 0;
+}
+
+.footer-right ul li {
+    margin-bottom: 5px; /* Spazio inferiore tra i link */
+}
+
+.footer-right ul li a {
+    color: black; /* Colore dei link nero */
+    text-decoration: none; /* Rimuovi la sottolineatura */
+}
+
+.footer-right ul li a:hover {
+    text-decoration: underline; /* Sottolinea il link al passaggio del mouse */
+}
+
+/* Media queries per il layout responsivo */
+@media screen and (max-width: 768px) {
+    footer {
+        display: flex; /* Utilizza il layout flessibile */
+        justify-content: space-between; /* Distribuisce gli elementi equamente */
+        align-items: center; /* Centra verticalmente gli elementi */
+    }
+
+    .footer-left,
+    .footer-center,
+    .footer-right {
+        flex: 1; /* Occupa tutto lo spazio disponibile */
+        text-align: center; /* Allinea il testo al centro */
+    }
+
+    .footer-right {
+        text-align: right; /* Allinea il testo a destra */
+    }
+}
+

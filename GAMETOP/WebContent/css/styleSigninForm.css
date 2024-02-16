@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+
+/* Impostazioni globali */
+body {
+    background-color: #f2f2f2; /* Colore di sfondo grigio chiaro */
+    font-family: Arial, sans-serif; /* Tipo di carattere */
+}
+
+/* Stile per il form di registrazione */
+form {
+    width: 300px; /* Larghezza del form */
+    margin: 0 auto; /* Margin automatico per centrare il form */
+    padding: 20px; /* Padding di 20px */
+    background-color: white; /* Colore di sfondo bianco */
+    border: 1px solid #ccc; /* Bordo grigio con spessore di 1px */
+    border-radius: 5px; /* Bordi arrotondati */
+    margin-top: 50px; /* Spazio sopra il form di 50px */
+}
+
+/* Etichette del form */
+form label {
+    font-weight: bold; /* Testo in grassetto */
+}
+
+/* Input del form */
+form input[type="text"],
+form input[type="date"] {
+    width: calc(100% - 10px); /* Larghezza del 100% meno 10px */
+    margin: 5px; /* Margine di 5px */
+    padding: 10px; /* Padding di 10px */
+    border: 1px solid #ccc; /* Bordo grigio con spessore di 1px */
+    border-radius: 5px; /* Bordi arrotondati */
+}
+
+/* Pulsanti del form */
+form button {
+    width: calc(100% - 10px); /* Larghezza del 100% meno 10px */
+    margin: 5px; /* Margine di 5px */
+    padding: 10px; /* Padding di 10px */
+    background-color: #4169E1; /* Colore di sfondo blu */
+    color: white; /* Colore del testo bianco */
+    border: none; /* Nessun bordo */
+    border-radius: 5px; /* Bordi arrotondati */
+    cursor: pointer; /* Cambia il cursore al puntatore al passaggio del mouse */
+}
+
+/* Messaggio di errore */
+.error-message {
+    color: red; /* Colore rosso per il messaggio di errore */
+}
+
+/* Media query per adattare il layout del form su schermi di dimensioni più piccole */
+@media screen and (max-width: 576px) {
+    form {
+        width: 90%; /* Larghezza del form al 90% dello schermo */
+    }
+}
