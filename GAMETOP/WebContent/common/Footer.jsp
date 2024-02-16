@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Footer</title>
     <!-- Includi qui i tuoi fogli di stile CSS -->
-    <link rel="stylesheet" href="/GAMETOP/css/styleFooter.css">
+    <link rel="stylesheet" href="/GAMETOP/styles/styleFooter.css">
     
 </head>
 <body>

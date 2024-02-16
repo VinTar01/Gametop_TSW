@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GameTop</title>
     <!-- Includi qui i tuoi fogli di stile CSS -->
-    <link rel="stylesheet" href="/GAMETOP/css/styleHeader.css">
+    <link rel="stylesheet" href="/GAMETOP/styles/styleHeader.css">
     <!-- Includi qui il tuo script JavaScript esterno -->
    
 </head>

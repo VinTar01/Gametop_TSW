@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cart</title>
 <%@ include file="Header.jsp" %>
-<link rel="stylesheet" href="/GAMETOP/css/styleCart.css">
+<link rel="stylesheet" href="/GAMETOP/styles/styleCart.css">
 <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
 <script src="common/scripts/Cart.js"></script>
 </head>

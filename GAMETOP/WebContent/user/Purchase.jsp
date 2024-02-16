@@ -5,7 +5,7 @@
 <head>
     <meta charset="ISO-8859-1">
     <title>Purchase</title>
-    <link rel="stylesheet" href="/GAMETOP/css/stylePurchase.css">
+    <link rel="stylesheet" href="/GAMETOP/styles/stylePurchase.css">
 </head>
 <body>
 

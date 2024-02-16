@@ -8,7 +8,7 @@
     <title>Product</title>
 	<%@ include file="Header.jsp"%>
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-    <link rel="stylesheet" href="/GAMETOP/css/styleProduct.css">
+    <link rel="stylesheet" href="/GAMETOP/styles/styleProduct.css">
     <script src="common/scripts/Product.js"></script>
 </head>
 <body>

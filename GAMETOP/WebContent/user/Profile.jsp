@@ -9,7 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script src="../user/scripts/AccountCover.js"></script>
     <script src="../user/scripts/Address.js"></script>
-    <link rel="stylesheet" type="text/css" href="/GAMETOP/css/styleProfileUser.css">
+    <link rel="stylesheet" type="text/css" href="/GAMETOP/styles/styleProfileUser.css">
 </head>
 <body>
 

@@ -7,7 +7,7 @@
 <title>GameTop</title>
 <%@ include file="Header.jsp" %>
 <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-<link rel="stylesheet" href="/GAMETOP/css/styleHome.css">
+<link rel="stylesheet" href="/GAMETOP/styles/styleHome.css">
 
 
 <script src="common/scripts/Home.js"></script>

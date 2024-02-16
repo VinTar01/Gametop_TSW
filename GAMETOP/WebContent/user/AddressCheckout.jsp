@@ -5,7 +5,7 @@
 <head>
     <meta charset="ISO-8859-1">
     <title>Address</title>
-    <link rel="stylesheet" href="/GAMETOP/css/styleFormNewAddress.css">
+    <link rel="stylesheet" href="/GAMETOP/styles/styleFormNewAddress.css">
     <script src="common/scripts/validateAddress.js"></script>
 </head>
 <body>

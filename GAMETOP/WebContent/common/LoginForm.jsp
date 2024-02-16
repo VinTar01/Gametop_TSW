@@ -6,7 +6,7 @@
     <title>Login</title>
     <script src="common/scripts/validateLogin.js"></script>
     <%@ include file="Header.jsp" %>
-    <link rel="stylesheet" href="/GAMETOP/css/styleLoginForm.css">
+    <link rel="stylesheet" href="/GAMETOP/styles/styleLoginForm.css">
     
 </head>
 <body>

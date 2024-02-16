@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visualizza Ordini</title>
     <%@ include file="/common/Header.jsp" %>
-    <link rel="stylesheet" href="/GAMETOP/css/styleViewOrders.css">
+    <link rel="stylesheet" href="/GAMETOP/styles/styleViewOrders.css">
 </head>
 <body>
     <h1>Visualizza Ordini</h1>

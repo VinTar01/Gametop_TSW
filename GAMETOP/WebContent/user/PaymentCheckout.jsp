@@ -7,7 +7,7 @@
     <title>Payment</title>
     <!-- Inclusione delle librerie JavaScript -->
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-    <link rel="stylesheet" href="/GAMETOP/css/stylePayment.css">
+    <link rel="stylesheet" href="/GAMETOP/styles/stylePayment.css">
     <script src="../../user/scripts/Payment.js"></script>
 </head>
 <body>

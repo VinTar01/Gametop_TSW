@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="/GAMETOP/css/styleSuccessOperation.css">
+<link rel="stylesheet" href="/GAMETOP/styles/styleSuccessOperation.css">
 <meta charset="ISO-8859-1">
 <title>Success operation</title>
 

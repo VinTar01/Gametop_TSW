@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GameTop</title>
 <%@ include file="Header.jsp" %>
-<link rel="stylesheet" href="/GAMETOP/css/styleSigninForm.css">
+<link rel="stylesheet" href="/GAMETOP/styles/styleSigninForm.css">
 <script src="common/scripts/validateSignin.js"></script>
 </head>
 <body>
